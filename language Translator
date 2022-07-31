@@ -1,0 +1,11 @@
+
+#import the library 
+from translate import Translator
+lang= input("what is the language you want to tanslate to: ")
+enter= input("enter what to want to translate to: ")
+#specifying the language 
+translator = Translator(to_lang=lang)
+#typing the message
+translation = translator.translate(enter)
+#print the translated message
+print(translation)
