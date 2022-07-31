@@ -2,7 +2,7 @@
 #import the library 
 from translate import Translator
 lang= input("what is the language you want to tanslate to: ")
-enter= input("enter what to want to translate to: ")
+enter= input("enter what you want to translate: ")
 #specifying the language 
 translator = Translator(to_lang=lang)
 #typing the message
